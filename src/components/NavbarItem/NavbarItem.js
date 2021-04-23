@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Grid from '@material-ui/core/Grid';
-import { ReactComponent as Logo } from '../../assets/icons/everledger-logo.svg';
 import  "./NavbarItem.scss";
 
 const NavbarItem = ({

@@ -40,7 +40,7 @@ const Home = () => {
           alignItems="center"
           justifyContent="space-"
         >
-          <Grid item xs={6} display="flex" className="appImage1"><img src={AppScreen1} /></Grid>
+          <Grid item xs={6} display="flex" className="appImage1"><img src={AppScreen1}/></Grid>
           <Grid item xs={6} display="flex" className="appImage2"><img src={AppScreen2} /></Grid>
         </Grid>
       </React.Fragment>
