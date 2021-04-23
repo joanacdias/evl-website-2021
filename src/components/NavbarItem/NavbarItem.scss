@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.navbarItemContainer {
+    width: fit-content !important;
+    margin-left: 40px !important;
+}
+
+.number {
+
+    p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 11px;
+        color: #B2B2B2;
+    }
+}
+
+.label {
+    padding-top: 4px !important;
+
+    p {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        color: #23333F;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

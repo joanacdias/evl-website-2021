@@ -1,0 +1,104 @@
+@import '../../styles/variables.scss';
+
+.homeContainer {
+    margin-top: 0 !important;
+}
+
+.heroLeftSide {
+    background-color: grey;
+    min-height: 600px;
+    border-radius: 0 42px 42px 0;
+    background: linear-gradient(0deg, rgba(44,48,56,0.73), rgba(44,48,56,0.73)), url('../../assets/images/consumer-image-1.png');
+    text-align: left;
+    color: $color-white;
+}
+
+.heroRightSide {
+    position: relative;
+    left: -124px;
+
+    img {
+        max-width: 290px;
+    }
+
+    .appImage1 {
+        position: relative;
+        left: -22px;
+    }
+
+    .appImage2 {
+        position: relative;
+        top: 44px;
+    }
+}
+
+.smallHeaderText {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.94;
+}
+
+.headerDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.heroActions {
+    margin-top: 48px !important;
+
+    button {
+        margin-right: 16px;
+        text-transform: unset;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.02em;
+    }
+}
+
+.primaryButton {
+    background-color: $color-white !important;
+    color: $color-primary !important;
+}
+
+.secondaryButton {
+    color: $color-white !important;
+    border-color: $color-white !important;
+}
+
+.clientSection {
+}
+
+.clientSectionTitle {
+    margin-top: 44px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #23333F;
+}
+
+.clientExamples {
+
+    img {
+        max-width: 1224px;
+        width: 100%;
+        mix-blend-mode: multiply;
+    }
+}

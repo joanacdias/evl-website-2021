@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.navbarContainer {
+    background-color: $color-white;
+}
+
+.navbar {
+    background-color: $color-white;
+    border-bottom: 1px solid #E7E7E7;
+    min-height: 80px !important;
+}
+
+.navLogo {
+    width: 120px;
+}
